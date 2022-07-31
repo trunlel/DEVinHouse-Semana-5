@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(130, 166, 166);
+}
+
+.pedidos {
+  display: flex;
+  padding: 2em;
+  flex-direction: column;
+}
+li {
+  margin: 2em;
+  padding: 20px;
+  list-style-type: none;
+  background-color: aliceblue;
+}
+ul.compras {
+  display: flex;
+  align-items: self-end;
+  flex-direction: column-reverse;
+}
+
+.numPedido {
+  /* position: absolute; */
+  width: 237px;
+  height: 29px;
+  left: 89px;
+  top: 85px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  color: #000000;
+}
+ul {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  line-height: 0.7;
+}
+label.title {
+  font-size: 30px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+label {
+  padding-top: 2em;
+  display: flex;
+  font-weight: bold;
+}
